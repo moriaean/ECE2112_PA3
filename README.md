@@ -14,15 +14,15 @@
 
 1. [Objectives](https://github.com/moriaean/ECE2112_PA3/blob/main/README.md#i-objectives)
 2. [Repository Contents](https://github.com/moriaean/ECE2112_PA3/blob/main/README.md#ii-repository-contents)
-3. [Dataset Overview](https://github.com/moriaean/ECE2112_PA3/main/README.md)
-4. [Detailed Problem Solutions & Discussion](https://github.com/moriaean/ECE2112_PA3/main/README.md)
-* [Problem A: Positional and Label-Based Slicing](https://github.com/moriaean/ECE2112_PA3/main/README.md)
-* [Problem B: Model Lookup](https://github.com/moriaean/ECE2112_PA3/main/README.md)
-* [Problem C: Multi-Model Subsetting](https://github.com/moriaean/ECE2112_PA3/main/README.md)
+3. [Dataset Overview](https://github.com/moriaean/ECE2112_PA3/blob/main/README.md#iii-dataset-overview)
+4. [Detailed Problem Solutions & Discussion](https://github.com/moriaean/ECE2112_PA3/blob/main/README.md#iv-detailed-problem-solution--discussion)
+* [Problem A: Positional and Label-Based Slicing](https://github.com/moriaean/ECE2112_PA3/blob/main/README.md#problem-a-positional-andd-label-based-slicing)
+* [Problem B: Model Lookup](https://github.com/moriaean/ECE2112_PA3/blob/main/README.md#problem-b-model-lookup)
+* [Problem C: Multi-Model Subsetting](https://github.com/moriaean/ECE2112_PA3/blob/main/README.md#problem-c-multi-model-subsetting)
 
 
-5. [Constraints & Compliance Checklist](https://github.com/moriaean/ECE2112_PA3/main/README.md)
-6. [How to Run](https://github.com/moriaean/ECE2112_PA3/main/README.md)
+5. [Constraints & Compliance Checklist](https://github.com/moriaean/ECE2112_PA3/blob/main/README.md#v-constraints--compliance-checklist)
+6. [How to Run](https://github.com/moriaean/ECE2112_PA3/blob/main/README.md#vi-how-to-run)
 
 ---
 
