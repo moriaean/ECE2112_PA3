@@ -89,18 +89,30 @@ import pandas as pd
 
 # Load dataset
 cars = pd.read_csv('cars.csv')
+cars
+
+```
+
+```python
 
 # Problem A.a: Shape and Column Names
-print("Shape of DataFrame:", cars.shape)
-print("Columns:", cars.columns)
+print(cars.shape)
+print(cars.columns)
+
+```
+
+```python
 
 # Problem A.b: Positional Slicing for Rows 6 to 10
 cars_6_to_10 = cars.iloc[5:10]
+cars_6_to_10
+
+```
+
+```python
 
 # Problem A.c: Label-based Column Selection
-result_A = cars_6_to_10[['Model', 'mpg', 'cyl', 'hp', 'gear']]
-display(result_A)
-
+cars.loc[6:10, ['Model', 'mpg', 'cyl', 'hp', 'gear']]
 ```
 
 #### Test Cases & Outputs
@@ -144,12 +156,16 @@ Because Pandas uses 0-based indexing by default, human-readable Row 1 correspond
 
 ```python
 # Problem B.a: Full row lookup for Toyota Corolla
-toyota = cars.loc[cars['Model'] == 'Toyota Corolla']
-display(toyota)
+toyota = cars.loc[cars['Model']=='Toyota Corolla']
+toyota
+
+```
+
+```python
 
 # Problem B.b: Specific column lookup for Pontiac Firebird
-pontiac = cars.loc[cars['Model'] == 'Pontiac Firebird', ['Model', 'mpg', 'hp', 'wt']]
-display(pontiac)
+pontiac = cars.loc[cars['Model']=='Pontiac Firebird',['Model', 'mpg', 'hp', 'wt']]
+pontiac
 
 ```
 
@@ -182,23 +198,23 @@ Create a subset DataFrame named `selected_cars` containing records for three spe
 #### Methods Used
 
 * `Series.isin([list_of_values])`: Checks whether each element in a column matches any element in the provided list, returning a Boolean mask.
-
-
-* `DataFrame.loc[mask, column_list]`: Subsets matching rows and restricts the dataset to required columns.
 * `DataFrame.shape`: Verifies final row and column dimensions.
 
 #### Python Code Implementation
 
 ```python
 # Problem C: Subset multiple models and specific columns
-selected_models = ['Datsun 710', 'Lotus Europa', 'Ferrari Dino']
-selected_columns = ['Model', 'mpg', 'cyl', 'hp', 'gear']
+selected_cars = pd.DataFrame(cars[cars['Model'].isin(['Datsun 710', 'Lotus Europa', 'Ferrari Dino'])], 
+                             columns=['Model', 'mpg', 'cyl', 'hp', 'gear'])
+selected_cars
 
-selected_cars = cars.loc[cars['Model'].isin(selected_models), selected_columns]
+```
 
-# Display results and dimensional check
+```python
+
+# Display dimensional check
 display(selected_cars)
-print("Shape of selected_cars:", selected_cars.shape)
+print(selected_cars.shape)
 
 ```
 
