@@ -12,7 +12,7 @@
 
 ## Table of Contents
 
-1. [Objectives](https://github.com/moriaean/ECE2112_PA3/main/README.md)
+1. [Objectives](https://github.com/moriaean/ECE2112_PA3/blob/main/README.md)
 2. [Repository Contents](https://github.com/moriaean/ECE2112_PA3/main/README.md)
 3. [Dataset Overview](https://github.com/moriaean/ECE2112_PA3/main/README.md)
 4. [Detailed Problem Solutions & Discussion](https://github.com/moriaean/ECE2112_PA3/main/README.md)
